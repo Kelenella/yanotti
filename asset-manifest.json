@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/yanotti/static/css/main.7939a902.css",
-    "main.js": "/yanotti/static/js/main.d87d157f.js",
+    "main.css": "/yanotti/static/css/main.a73f1563.css",
+    "main.js": "/yanotti/static/js/main.d4845843.js",
+    "static/media/logo-yanotti.jpg": "/yanotti/static/media/logo-yanotti.551267b5a2cf759a9240.jpg",
     "index.html": "/yanotti/index.html",
-    "main.7939a902.css.map": "/yanotti/static/css/main.7939a902.css.map",
-    "main.d87d157f.js.map": "/yanotti/static/js/main.d87d157f.js.map"
+    "main.a73f1563.css.map": "/yanotti/static/css/main.a73f1563.css.map",
+    "main.d4845843.js.map": "/yanotti/static/js/main.d4845843.js.map"
   },
   "entrypoints": [
-    "static/css/main.7939a902.css",
-    "static/js/main.d87d157f.js"
+    "static/css/main.a73f1563.css",
+    "static/js/main.d4845843.js"
   ]
 }
