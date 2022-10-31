@@ -1,9 +1,9 @@
 import "./App.css";
 import "./components/AboutAuthor/";
-import AboutAuthor from "./components/AboutAuthor/";
+import Header from "./components/Header";
 
 function App() {
-  return <AboutAuthor></AboutAuthor>;
+  return <Header></Header>;
 }
 
 export default App;
