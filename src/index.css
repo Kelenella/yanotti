@@ -1,5 +1,23 @@
 @import-normalize;
 
+:root {
+  --bg-color: #f5f5f5;
+  --dark-bg-color: rgba(209, 196, 181, 0.5);
+  --accent-color: #856c57;
+  --qa-block-bg: #e1f4f8;
+  --benefits-block-bg: rgba(210, 239, 244, 0.5);
+
+  --main-text-color: #000;
+  --title-color: #000;
+
+  --btn-bg-main-color: rgba(3, 112, 155, 0.5);
+  --btn-accent-color: #03709b;
+  --btn-brown: #856c57;
+
+  --input-border-color: #03709b;
+  --input-txt-color: rgba(3, 112, 155, 0.5);
+}
+
 html {
   box-sizing: border-box;
 }
@@ -13,10 +31,11 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  /* background: url(''); */
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  background-color: var(--bg-color);
 }
 ul {
   list-style: none;

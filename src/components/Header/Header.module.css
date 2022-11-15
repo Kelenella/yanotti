@@ -1,4 +1,13 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-bg-color);
+}
+
 .logo {
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .navigation {
@@ -6,11 +15,28 @@
 
 .navigationList {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 
 .navigationItem {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navigationItem:first-child {
+  margin-left: 25px;
+}
+
+.navigationItem:not(:last-child) {
+  margin-right: 140px;
+}
+
+.navigationItem:last-child {
+  margin-right: 130px;
 }
 
 .navigationLink {
+  color: var(--main-text-color);
 }

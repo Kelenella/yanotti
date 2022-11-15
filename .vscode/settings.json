@@ -2,5 +2,12 @@
     "css.styleSheets": [
     
     ],
-    "css.lint.emptyRules": "ignore"
+    "css.lint.emptyRules": "ignore",
+    "cSpell.words": [
+        "Вопросы",
+        "Отзывы",
+        "Преимущества",
+        "Программа",
+        "yanotti"
+    ]
 }
