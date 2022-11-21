@@ -1,5 +1,16 @@
-import s from "./Groups.module.css";
+import PropTypes from "prop-types";
 
-export default function Groups() {
-  return <></>;
-}
+// import s from "./Groups.module.css";
+
+const Groups = ({ title, children }) => {
+  return (
+    <section>
+      {title && <h2>{title}</h2>}
+      {children}
+    </section>
+  );
+};
+
+Groups.propTypes = { title: PropTypes.string, children: PropTypes.node };
+
+export default Groups;

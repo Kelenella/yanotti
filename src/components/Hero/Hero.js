@@ -1,5 +1,7 @@
 import s from "./Hero.module.css";
 
-export function Hero() {
-  return <></>;
-}
+const Hero = () => {
+  return <section className={s.section}></section>;
+};
+
+export default Hero;

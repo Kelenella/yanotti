@@ -1,8 +1,6 @@
-@import-normalize;
-
 :root {
   --bg-color: #f5f5f5;
-  --dark-bg-color: rgba(209, 196, 181, 0.5);
+  --dark-bg-color: #e8e1da;
   --accent-color: #856c57;
   --qa-block-bg: #e1f4f8;
   --benefits-block-bg: rgba(210, 239, 244, 0.5);
@@ -62,4 +60,6 @@ video {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
