@@ -10,10 +10,9 @@ function App() {
   // const isOnline = true;
   return (
     <>
-      <Container>
-        <Header />
-        <Hero />
-      </Container>
+      <Header />
+      <Hero />
+      <Container></Container>
       {/* {isOnline && "Online"}
       {isOnline ? "Online" : "Offline"}
       <Groups title="Отзывы наших учениц">

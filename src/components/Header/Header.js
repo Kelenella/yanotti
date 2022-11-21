@@ -1,5 +1,6 @@
 import s from "./Header.module.css";
 import logo from "../../img/logo.png";
+// import instaIcon from "../../img/instagram.svg";
 
 const Header = (props) => {
   return (
@@ -37,7 +38,7 @@ const Header = (props) => {
           {/* <li>
             <a href="https://instagram.com/yanotti_massage?igshid=YmMyMTA2M2Y=">
               <svg>
-                <use></use>
+                <use>{instaIcon}</use>
               </svg>
             </a>
           </li>
