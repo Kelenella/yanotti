@@ -1,5 +1,10 @@
-import s from "./Footer.module.css";
+// import PropTypes from "prop-types";
+// import s from "./Footer.module.css";
 
-export default function Footer() {
-  return <></>;
-}
+const Footer = () => {
+  return <footer></footer>;
+};
+
+Footer.propTypes = {};
+
+export default Footer;

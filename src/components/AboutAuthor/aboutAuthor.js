@@ -1,5 +1,11 @@
-import s from "./aboutAuthor.module.css";
+import s from "./AboutAuthor.module.css";
 
-export default function aboutAuthor() {
-  return <p>hi</p>;
-}
+const AboutAuthor = ({ title }) => {
+  return (
+    <section>
+      <h2 className={s.title}>{title}</h2>
+    </section>
+  );
+};
+
+export default AboutAuthor;

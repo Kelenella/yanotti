@@ -1,18 +1,24 @@
 import PropTypes from "prop-types";
 import ReviewBlock from "../ReviewBlock/ReviewBlock";
-const ReviewList = ({ items = [] }) => {
+import s from "./ReviewList.module.css";
+
+const ReviewList = ({ title, items = [] }) => {
   return (
-    <ul>
-      {items.map((item) => (
-        <li key={item.id}>
-          <ReviewBlock name={item.name} age={item.age} text={item.text} />
-        </li>
-      ))}
-    </ul>
+    <section>
+      <h2 className={s.title}>{title}</h2>
+      <ul>
+        {items.map((item) => (
+          <li key={item.id}>
+            <ReviewBlock name={item.name} age={item.age} text={item.text} />
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 };
 
 ReviewList.propTypes = {
+  title: PropTypes.string.isRequired,
   items: PropTypes.arrayOf(
     PropTypes.shape({ id: PropTypes.string.isRequired })
   ),
