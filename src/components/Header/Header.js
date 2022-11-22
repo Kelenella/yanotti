@@ -1,6 +1,7 @@
+// import PropTypes from "prop-types";
 import s from "./Header.module.css";
 import logo from "../../img/logo.png";
-// import instaIcon from "../../img/instagram.svg";
+import Icons from "../Icons/Icons";
 
 const Header = (props) => {
   return (
@@ -35,24 +36,26 @@ const Header = (props) => {
               +380993589253
             </a>
           </li>
-          {/* <li>
-            <a href="https://instagram.com/yanotti_massage?igshid=YmMyMTA2M2Y=">
-              <svg>
-                <use>{instaIcon}</use>
-              </svg>
+          <li className={s.contactsItem}>
+            <a
+              href="https://instagram.com/yanotti_massage?igshid=YmMyMTA2M2Y="
+              aria-label="YanottiOnInstagram"
+              className={s.icon}
+            >
+              <Icons name="instagram" width={30} height={30} />
             </a>
           </li>
-          <li>
-            <a href="/">
-              <svg>
-                <use></use>
-              </svg>
+          <li className={s.contactsItem}>
+            <a href="/" aria-label="YanottiOnYoutube" className={s.icon}>
+              <Icons name="youtube" width={30} height={30} />
             </a>
-          </li> */}
+          </li>
         </ul>
       </nav>
     </header>
   );
 };
+
+Header.propTypes = {};
 
 export default Header;

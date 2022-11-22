@@ -1,3 +1,38 @@
 .section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--dark-bg-color);
+}
+.heroBlock {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.title {
+  width: 470px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.subTitle {
+  position: absolute;
+  top: 50px;
+  left: 230px;
+  font-weight: 400;
+  line-height: 1.35;
+  font-size: 20px;
+}
+.text {
+  width: 180px;
+  margin-bottom: 25px;
+}
+.heroImg {
+  width: 650px;
+  margin-left: 75px;
+  border-radius: 20px;
 }
