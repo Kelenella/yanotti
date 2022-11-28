@@ -40,13 +40,17 @@ const Header = (props) => {
             <a
               href="https://instagram.com/yanotti_massage?igshid=YmMyMTA2M2Y="
               aria-label="YanottiOnInstagram"
-              className={s.icon}
+              className={s.contactsLink}
             >
               <Icons name="instagram" width={30} height={30} />
             </a>
           </li>
           <li className={s.contactsItem}>
-            <a href="/" aria-label="YanottiOnYoutube" className={s.icon}>
+            <a
+              href="/"
+              aria-label="YanottiOnYoutube"
+              className={s.contactsLink}
+            >
               <Icons name="youtube" width={30} height={30} />
             </a>
           </li>

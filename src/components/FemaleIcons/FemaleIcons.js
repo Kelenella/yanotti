@@ -1,22 +1,38 @@
 import PropTypes from "prop-types";
-import Icons from "../Icons/Icons";
+import antiAge from "../../img/anti-age.jpg";
+import beauty from "../../img/beauty-treatment.jpg";
+import skinCare from "../../img/skincare.jpg";
 import s from "./FemaleIcons.module.css";
 
 const FemaleIcons = ({ title }) => {
   return (
     <section>
       <h2 className={s.title}>{title}</h2>
-      <div className={s.cardsWrapper}>
-        <div>
-          <Icons name="beautyTreatment1" width={200} />
-        </div>
-        <div>
-          <Icons name="antiAge1" width={200} />
-        </div>
-        <div>
-          <Icons name="skinCare1" width={200} />
-        </div>
-      </div>
+
+      <ul className={s.cardsWrapper}>
+        <li className={s.cardsItem}>
+          <div className={s.imgTxtWrap}>
+            <img src={beauty} alt="beauty" />
+            <p className={s.cardText}>Выработать привычку ухаживать за собой</p>
+          </div>
+        </li>
+
+        <li className={s.cardsItem}>
+          <div className={s.imgTxtWrap}>
+            <img src={antiAge} alt="antiAge" />
+            <p className={s.cardText}>
+              Сохранить молодость без инъекций и уколов
+            </p>
+          </div>
+        </li>
+
+        <li className={s.cardsItem}>
+          <div className={s.imgTxtWrap}>
+            <img src={skinCare} alt="skinCare" />
+            <p className={s.cardText}>Учитывать состояние и потребности кожи</p>
+          </div>
+        </li>
+      </ul>
     </section>
   );
 };

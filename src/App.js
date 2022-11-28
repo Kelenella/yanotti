@@ -17,17 +17,21 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <Container>
-        <FemaleIcons title="для каждой девушки важно" />
-        <Helpfulness title="чем полезен марафон" />
-        <Groups title="группы" />
-        <AboutAuthor title="автор и спикер" />
-        <ReviewList title="отзывы наших учениц" items={reviews} />
-        <Qa title="вопросы" />
-        <Video title="посмотрите короткий одного из уроков" />
-        <SectionForm />
-      </Container>
+      <main>
+        <Hero />
+        <Container>
+          <div className="background">
+            <FemaleIcons title="для каждой девушки важно" />
+            <Helpfulness title="чем полезен марафон" />
+            <Groups title="группы" />
+          </div>
+          <AboutAuthor title="автор и спикер" />
+          <ReviewList title="отзывы наших учениц" items={reviews} />
+          <Qa title="вопросы" />
+          <Video title="посмотрите короткий одного из уроков" />
+          <SectionForm />
+        </Container>
+      </main>
       <Footer />
     </>
   );

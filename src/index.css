@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #f5f5f5;
+  --bg-color: #fff;
   --dark-bg-color: #e8e1da;
   --accent-color: #856c57;
   --qa-block-bg: #e1f4f8;
@@ -35,6 +35,10 @@ body {
   font-size: 16px;
   line-height: 1.4;
   background-color: var(--bg-color);
+  /* background-image: url(./img/background.jpg), url(./img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: right, left; */
+  /* background-attachment: fixed; */
 }
 ul {
   list-style: none;

@@ -1,25 +1,27 @@
 .header {
-  width: 100%;
+  width: 1245px;
   display: flex;
+  margin-right: auto;
+  margin-left: auto;
   justify-content: center;
   align-items: center;
   background-color: var(--dark-bg-color);
 }
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
   .header {
-    width: 100%;
+    width: 480;
   }
 }
 @media screen and (min-width: 768px) {
   .header {
-    width: 100%;
+    width: 768px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1260px) {
   .header {
-    width: 100%;
+    width: 1260px;
   }
-}
+} */
 
 .logo {
   width: 48px;
@@ -120,6 +122,11 @@
 .navigationLink {
   font-size: 12px;
   color: var(--main-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.navigationLink:hover,
+.navigationLink:focus {
+  color: var(--btn-accent-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -164,6 +171,11 @@
 .contactsLink {
   font-size: 12px;
   color: var(--main-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contactsLink:hover,
+.contactsLink:focus {
+  color: var(--btn-accent-color);
 }
 @media screen and (min-width: 768px) {
   .contactsLink {

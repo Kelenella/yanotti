@@ -7,7 +7,32 @@
   text-transform: uppercase;
   text-align: center;
 }
-.cardsWrapper {
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.img {
+
+.cardsWrapper {
+  composes: flex-wrapper;
+}
+
+.cardsItem {
+  width: 392px;
+  height: 382px;
+  background: var(--benefits-block-bg);
+}
+.cardsItem:not(:last-child) {
+  margin-right: 20px;
+}
+
+.imgTxtWrap {
+  composes: flex-wrapper;
+  flex-direction: column;
+  padding: 50px 95px;
+}
+
+.cardText {
+  margin-top: 15px;
+  text-align: center;
 }

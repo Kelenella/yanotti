@@ -1,4 +1,4 @@
-import svg from "../../img/sprite.svg";
+import sprite from "../../img/icons/sprite.svg";
 import s from "./Icons.module.css";
 
 const Icons = ({ name, className, color, stroke, width, height }) => {
@@ -10,7 +10,7 @@ const Icons = ({ name, className, color, stroke, width, height }) => {
       width={width}
       height={height}
     >
-      <use xlinkHref={`${svg}#${name}`}></use>
+      <use xlinkHref={`${sprite}#${name}`}></use>
     </svg>
   );
 };

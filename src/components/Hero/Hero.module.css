@@ -1,15 +1,17 @@
 .section {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* width: 1245px; */
+  height: 715px;
+  margin-right: auto;
+  margin-left: auto;
   background-color: var(--dark-bg-color);
+  background-image: url(../../img/heroImg.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .heroBlock {
-  display: flex;
+  /* display: flex;
   justify-content: flex-start;
-  flex-direction: column;
+  flex-direction: column; */
 }
 .title {
   width: 470px;
@@ -20,9 +22,7 @@
   text-transform: uppercase;
 }
 .subTitle {
-  position: absolute;
-  top: 50px;
-  left: 230px;
+  margin-bottom: 125px;
   font-weight: 400;
   line-height: 1.35;
   font-size: 20px;
@@ -30,9 +30,4 @@
 .text {
   width: 180px;
   margin-bottom: 25px;
-}
-.heroImg {
-  width: 650px;
-  margin-left: 75px;
-  border-radius: 20px;
 }

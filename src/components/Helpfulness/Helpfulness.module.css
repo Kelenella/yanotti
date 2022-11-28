@@ -1,3 +1,8 @@
+.section {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .title {
   margin-top: 100px;
   margin-bottom: 40px;
@@ -6,4 +11,28 @@
   line-height: 1.35;
   text-transform: uppercase;
   text-align: center;
+}
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.list {
+  composes: flex-wrapper;
+  flex-direction: column;
+  width: 588px;
+  height: 451px;
+  list-style: disc;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.text {
+  line-height: 1.36;
+  font-size: 22px;
+  text-align: left;
 }
