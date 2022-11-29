@@ -33,6 +33,8 @@
 }
 
 .cardText {
+  font-size: 20px;
+  line-height: 1.37;
   margin-top: 15px;
   text-align: center;
 }

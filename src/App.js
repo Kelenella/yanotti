@@ -25,7 +25,6 @@ function App() {
             <Helpfulness title="чем полезен марафон" />
           </div>
           <Groups title="группы" children />
-
           <AboutAuthor title="автор и спикер" />
           <ReviewList title="отзывы наших учениц" items={reviews} />
           <Qa title="вопросы" />
