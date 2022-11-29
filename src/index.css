@@ -13,6 +13,9 @@
   --btn-accent-color: #03709b;
   --btn-brown: #856c57;
 
+  --groupNumberBg: #d1c4b5;
+  --groupBg: rgba(209, 196, 181, 0.5);
+
   --input-border-color: #03709b;
   --input-txt-color: rgba(3, 112, 155, 0.5);
 }
@@ -35,10 +38,6 @@ body {
   font-size: 16px;
   line-height: 1.4;
   background-color: var(--bg-color);
-  /* background-image: url(./img/background.jpg), url(./img/background.jpg);
-  background-repeat: no-repeat;
-  background-position: right, left; */
-  /* background-attachment: fixed; */
 }
 ul {
   list-style: none;

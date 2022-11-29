@@ -23,8 +23,9 @@ function App() {
           <div className="background">
             <FemaleIcons title="для каждой девушки важно" />
             <Helpfulness title="чем полезен марафон" />
-            <Groups title="группы" />
           </div>
+          <Groups title="группы" children />
+
           <AboutAuthor title="автор и спикер" />
           <ReviewList title="отзывы наших учениц" items={reviews} />
           <Qa title="вопросы" />

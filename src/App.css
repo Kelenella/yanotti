@@ -15,7 +15,6 @@
   background-position: top left;
 
   z-index: -1;
-  -webkit-transform: rotate(140deg);
   transform: rotate(180deg);
 }
 
@@ -32,6 +31,5 @@
   background-position: right;
 
   z-index: -1;
-  /* -webkit-transform: rotate(140deg); */
   transform: rotate(-5deg);
 }

@@ -1,9 +1,101 @@
+.fs {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.section {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .title {
   margin-top: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 105px;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 48px;
   line-height: 1.35;
   text-transform: uppercase;
   text-align: center;
+}
+
+.textTitle {
+  margin-bottom: 25px;
+  composes: fs;
+}
+
+.text1 {
+  margin-bottom: 15px;
+  composes: fs;
+}
+
+.groupList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.groupItem {
+  position: relative;
+  width: 392px;
+  height: 813px;
+  padding: 145px 45px 50px 45px;
+  border-radius: 10px;
+  background-color: var(--groupBg);
+}
+
+.groupItem:not(:last-child) {
+  margin-right: 20px;
+}
+
+.groupNumber {
+  position: absolute;
+  top: 0;
+  left: 13%;
+  transform: translate(0, -50%);
+  width: 300px;
+  height: 186px;
+  border-radius: 10px;
+  background-color: var(--groupNumberBg);
+}
+
+.spanNumber {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-weight: 700;
+  font-size: 96px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.36;
+  color: var(--bg-color);
+}
+
+.textWrapper {
+}
+
+.textList1 {
+  list-style-type: disc;
+  margin-bottom: 40px;
+}
+.textList2 {
+  list-style-type: disc;
+  margin-bottom: 92px;
+}
+.textList3 {
+  list-style-type: disc;
+  margin-bottom: 63px;
+}
+
+.spanPrice {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.375;
 }
