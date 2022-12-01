@@ -12,11 +12,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  height: 517px;
+  background-color: var(--blue-bg);
+}
+
+.img {
+  width: 511px;
+  height: 617px;
 }
 
 .list {
   width: 555px;
   height: 428px;
+  margin-left: 40px;
 }
 .item:not(:last-child) {
   margin-bottom: 10px;

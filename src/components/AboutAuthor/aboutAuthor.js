@@ -6,7 +6,7 @@ const AboutAuthor = ({ title }) => {
     <section>
       <h2 className={s.title}>{title}</h2>
       <div className={s.wrapper}>
-        <img src={Yana} alt="Яна" />
+        <img src={Yana} alt="Яна" className={s.img} />
         <ul className={s.list}>
           <li className={s.item}>
             <p className={s.txt}>Давайте знакомиться!</p>
