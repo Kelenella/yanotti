@@ -6,6 +6,7 @@ const ReviewList = ({ title, items = [] }) => {
   return (
     <section>
       <h2 className={s.title}>{title}</h2>
+
       <ul className={s.reviewList}>
         {items.map((item) => (
           <li key={item.id} className={s.reviewItem}>

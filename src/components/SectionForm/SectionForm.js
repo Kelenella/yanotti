@@ -7,7 +7,7 @@ const SectionForm = ({ title }) => {
   return (
     <section>
       <h2 className={s.title}>{title}</h2>
-      <div>
+      <div className={s.formWrapper}>
         <img src={ImgForm} alt="Фото Яны" className={s.img} />
         <Form />
       </div>

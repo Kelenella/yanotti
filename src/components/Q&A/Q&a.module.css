@@ -1,9 +1,25 @@
+.section {
+  width: 100%;
+  background-color: var(--blue-bg);
+  background-image: url(../../img/qa.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 20px 0px 0px 0px;
+}
+
 .title {
   /* margin-top: 130px; */
   margin-bottom: 35px;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 48px;
   line-height: 1.35;
   text-transform: uppercase;
   text-align: center;
+}
+
+.qaList {
+}
+
+.question {
+  font-style: 24px;
 }

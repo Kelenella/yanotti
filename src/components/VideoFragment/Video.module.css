@@ -1,9 +1,20 @@
+.section {
+  margin-right: auto;
+  margin-left: auto;
+}
 .title {
+  width: 796px;
   margin-top: 100px;
   margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 48px;
   line-height: 1.35;
   text-transform: uppercase;
   text-align: center;
+}
+
+.img {
+  margin-left: auto;
 }
