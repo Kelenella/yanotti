@@ -13,7 +13,7 @@ const AboutAuthor = ({ title }) => {
           </li>
           <li className={s.item}>
             <p className={s.txt}>
-              Меня зовут Яна Рассказова и я работаю в сфере массажа с 2009 года.
+              Меня зовут Яна Рассказова и я работаю в сфере массажа с 2009 года.
             </p>
           </li>
           <li className={s.item}>

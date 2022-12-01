@@ -28,7 +28,7 @@ function App() {
           <AboutAuthor title="автор и спикер" />
           <ReviewList title="отзывы наших учениц" items={reviews} />
           <Qa title="вопросы" />
-          <Video title="посмотрите короткий одного из уроков" />
+          <Video title="посмотрите короткий фрагмент одного из уроков" />
           <SectionForm />
         </Container>
       </main>
