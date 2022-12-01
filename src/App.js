@@ -29,7 +29,7 @@ function App() {
           <ReviewList title="отзывы наших учениц" items={reviews} />
           <Qa title="вопросы" />
           <Video title="посмотрите короткий фрагмент одного из уроков" />
-          <SectionForm />
+          <SectionForm title="записаться на марафон" />
         </Container>
       </main>
       <Footer />
