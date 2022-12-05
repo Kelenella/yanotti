@@ -24,7 +24,7 @@ const Groups = ({ title }) => {
               направлена на профилактику и предотвращение морщин и заломов.
             </p>
             <p className={s.fs}>Вы научитесь</p>
-            <ul className={s.textList1}>
+            <ul className={s.textList}>
               <li>
                 <p className={s.fs}>запускать кровообращение</p>
               </li>
@@ -54,7 +54,7 @@ const Groups = ({ title }) => {
               мелкие морщинки
             </p>
             <p className={s.fs}>Вы научитесь</p>
-            <ul className={s.textList2}>
+            <ul className={s.textList}>
               <li>
                 <p className={s.fs}>прорабатывать мыщцы</p>
               </li>
@@ -86,7 +86,7 @@ const Groups = ({ title }) => {
               становится тонкой
             </p>
             <p className={s.fs}>Вы научитесь</p>
-            <ul className={s.textList3}>
+            <ul className={s.textList}>
               <li>
                 <p className={s.fs}>запускать обменные процессы</p>
               </li>

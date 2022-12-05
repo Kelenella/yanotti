@@ -76,17 +76,9 @@
 .textWrapper {
 }
 
-.textList1 {
+.textList {
   list-style-type: disc;
   margin-bottom: 40px;
-}
-.textList2 {
-  list-style-type: disc;
-  margin-bottom: 92px;
-}
-.textList3 {
-  list-style-type: disc;
-  margin-bottom: 63px;
 }
 
 .spanPrice {
