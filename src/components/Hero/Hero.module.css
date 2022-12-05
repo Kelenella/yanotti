@@ -1,18 +1,15 @@
 .section {
-  /* width: 1245px; */
-  height: 715px;
+  width: 100%;
+  background-color: var(--dark-bg-color);
+}
+.heroWrapper {
+  width: 1245px;
   margin-right: auto;
   margin-left: auto;
-  background-color: var(--dark-bg-color);
-  background-image: url(../../img/heroImg.jpg);
-  background-repeat: no-repeat;
-  background-position: right;
+  display: flex;
+  justify-content: center;
 }
-.heroBlock {
-  /* display: flex;
-  justify-content: flex-start;
-  flex-direction: column; */
-}
+
 .title {
   width: 470px;
   margin-bottom: 15px;
@@ -22,6 +19,7 @@
   text-transform: uppercase;
 }
 .subTitle {
+  margin-top: 50px;
   margin-bottom: 125px;
   font-weight: 400;
   line-height: 1.35;

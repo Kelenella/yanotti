@@ -1,11 +1,14 @@
 .header {
+  width: 100%;
+  background-color: var(--dark-bg-color);
+}
+.headerWrapper {
   width: 1245px;
   display: flex;
   margin-right: auto;
   margin-left: auto;
   justify-content: center;
   align-items: center;
-  background-color: var(--dark-bg-color);
 }
 /* @media screen and (min-width: 480px) {
   .header {
