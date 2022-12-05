@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yanotti/static/css/main.cf13701b.css",
-    "main.js": "/yanotti/static/js/main.66fe257a.js",
+    "main.css": "/yanotti/static/css/main.600ef5e1.css",
+    "main.js": "/yanotti/static/js/main.189408cc.js",
     "static/media/logo.png": "/yanotti/static/media/logo.f2b301cebed06da90698.png",
     "static/media/heroImg.jpg": "/yanotti/static/media/heroImg.53a5a0b76ffcb9fa6080.jpg",
     "static/media/qa.jpg": "/yanotti/static/media/qa.6261ea384393daf98d18.jpg",
@@ -11,11 +11,11 @@
     "static/media/formImg.jpg": "/yanotti/static/media/formImg.0fc2d5eafd4a34483c03.jpg",
     "static/media/sprite.svg": "/yanotti/static/media/sprite.b9959f158d1653c38329def6bff42cdb.svg",
     "index.html": "/yanotti/index.html",
-    "main.cf13701b.css.map": "/yanotti/static/css/main.cf13701b.css.map",
-    "main.66fe257a.js.map": "/yanotti/static/js/main.66fe257a.js.map"
+    "main.600ef5e1.css.map": "/yanotti/static/css/main.600ef5e1.css.map",
+    "main.189408cc.js.map": "/yanotti/static/js/main.189408cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf13701b.css",
-    "static/js/main.66fe257a.js"
+    "static/css/main.600ef5e1.css",
+    "static/js/main.189408cc.js"
   ]
 }
