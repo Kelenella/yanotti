@@ -10,22 +10,22 @@ const Header = (props) => {
       <nav className={s.navigation}>
         <ul className={s.navigationList}>
           <li className={s.navigationItem}>
-            <a href="/" className={s.navigationLink}>
+            <a href="#helpfulness" className={s.navigationLink}>
               Преимущества
             </a>
           </li>
           <li className={s.navigationItem}>
-            <a href="/" className={s.navigationLink}>
+            <a href="#program" className={s.navigationLink}>
               Программа
             </a>
           </li>
           <li className={s.navigationItem}>
-            <a href="/" className={s.navigationLink}>
+            <a href="#reviews" className={s.navigationLink}>
               Отзывы
             </a>
           </li>
           <li className={s.navigationItem}>
-            <a href="/" className={s.navigationLink}>
+            <a href="#qa" className={s.navigationLink}>
               Вопросы
             </a>
           </li>

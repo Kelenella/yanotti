@@ -2,11 +2,14 @@
   --bg-color: #fff;
   --dark-bg-color: #e8e1da;
   --blue-bg: #dff1f4;
+  --footer-bg: #856c57;
   --accent-color: #856c57;
   --qa-block-bg: #e1f4f8;
   --benefits-block-bg: rgba(210, 239, 244, 0.5);
 
   --main-text-color: #000;
+  --footer-text-color: #fff;
+  --footer-second-text-color: #b1acac;
   --title-color: #000;
 
   --btn-bg-main-color: rgba(3, 112, 155, 0.5);

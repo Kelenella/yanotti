@@ -5,7 +5,9 @@ import s from "./Q&a.module.css";
 const Qa = ({ title }) => {
   return (
     <section className={s.section}>
-      <h2 className={s.title}>{title}</h2>
+      <h2 className={s.title} id="qa">
+        {title}
+      </h2>
       <ul className={s.qaList}>
         <li className={s.qaItem}>
           <p className={s.question}>

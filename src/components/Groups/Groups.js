@@ -6,7 +6,11 @@ import s from "./Groups.module.css";
 const Groups = ({ title }) => {
   return (
     <section className={s.section}>
-      {title && <h2 className={s.title}>{title}</h2>}
+      {title && (
+        <h2 className={s.title} id="program">
+          {title}
+        </h2>
+      )}
 
       <ul className={s.groupList}>
         <li className={s.groupItem}>

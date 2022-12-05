@@ -1,0 +1,71 @@
+.footer {
+  width: 100%;
+  background-color: var(--footer-bg);
+}
+.mainWrapper {
+  width: 1245px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 88px;
+  height: 80px;
+  margin-right: 15px;
+}
+
+.navigationList {
+}
+
+.navigationItem:not(:last-child) {
+  margin-bottom: 3px;
+}
+
+.navigationLink {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.37;
+  color: var(--footer-text-color);
+}
+
+.textList {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.textItem {
+}
+
+.textLink {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.35;
+  color: var(--footer-second-text-color);
+}
+
+.contactsWrapper {
+}
+
+.contactsList {
+}
+
+.contactsItem:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.contactsLink {
+  font-size: 18px;
+  line-height: 1.35;
+  color: var(--footer-text-color);
+}

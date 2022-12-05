@@ -4,7 +4,9 @@ import s from "./Helpfulness.module.css";
 const Helpfulness = ({ title }) => {
   return (
     <section className={s.section}>
-      <h2 className={s.title}>{title}</h2>
+      <h2 className={s.title} id="helpfulness">
+        {title}
+      </h2>
       <ul className={s.list}>
         <li className={s.item}>
           <p className={s.text}>
