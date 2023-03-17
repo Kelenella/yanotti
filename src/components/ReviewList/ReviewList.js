@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import ReviewBlock from "../ReviewBlock/ReviewBlock";
+
 import s from "./ReviewList.module.css";
 
 const ReviewList = ({ title, items = [] }) => {
@@ -20,8 +21,10 @@ const ReviewList = ({ title, items = [] }) => {
   );
 };
 
+ReviewList.defaultProps = { title: "отзывы наших учениц" };
+
 ReviewList.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   items: PropTypes.arrayOf(
     PropTypes.shape({ id: PropTypes.string.isRequired })
   ),

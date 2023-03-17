@@ -1,0 +1,12 @@
+.item {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid teal;
+  margin-bottom: 10px;
+}
+.text {
+  margin-right: 10px;
+}

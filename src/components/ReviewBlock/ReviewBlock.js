@@ -1,8 +1,6 @@
 import PropTypes from "prop-types";
 import s from "./ReviewBlock.module.css";
 
-// import s from "./Reviews.module.css";
-
 const ReviewBlock = ({ name, age, text }) => {
   return (
     <div className={s.reviewWrapper}>

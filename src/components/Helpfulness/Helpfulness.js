@@ -38,6 +38,8 @@ const Helpfulness = ({ title }) => {
   );
 };
 
-Helpfulness.propTypes = { title: PropTypes.string.isRequired };
+Helpfulness.defaultProps = { title: "чем полезен марафон" };
+
+Helpfulness.propTypes = { title: PropTypes.string };
 
 export default Helpfulness;

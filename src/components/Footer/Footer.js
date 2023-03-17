@@ -1,9 +1,13 @@
-// import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 import logo from "../../img/logo.png";
 import s from "./Footer.module.css";
 // import Icons from "../Icons/Icons";
 
-const Footer = () => {
+const Footer = ({
+  textLinksObj: { textHelpfulness, textProgram, textReviews, textQa },
+  middleTxtObj: { contractOffer, privacyPolicy },
+  contactsTxtObj: { phoneNumber, instaContact, youTubeContact },
+}) => {
   return (
     <footer className={s.footer}>
       <div className={s.mainWrapper}>
@@ -13,22 +17,22 @@ const Footer = () => {
             <ul className={s.navigationList}>
               <li className={s.navigationItem}>
                 <a href="#helpfulness" className={s.navigationLink}>
-                  Преимущества
+                  {textHelpfulness}
                 </a>
               </li>
               <li className={s.navigationItem}>
                 <a href="#program" className={s.navigationLink}>
-                  Программа
+                  {textProgram}
                 </a>
               </li>
               <li className={s.navigationItem}>
                 <a href="#reviews" className={s.navigationLink}>
-                  Отзывы
+                  {textReviews}
                 </a>
               </li>
               <li className={s.navigationItem}>
                 <a href="#qa" className={s.navigationLink}>
-                  Вопросы
+                  {textQa}
                 </a>
               </li>
             </ul>
@@ -37,17 +41,13 @@ const Footer = () => {
 
         <ul className={s.textList}>
           <li className={s.textItem}>
-            <a href="/" src="Договор оферты" className={s.textLink}>
-              Договор оферты
+            <a href="/" src="contractOffer" className={s.textLink}>
+              {contractOffer}
             </a>
           </li>
           <li className={s.textItem}>
-            <a
-              href="/"
-              src="Политика конфиденциальности"
-              className={s.textLink}
-            >
-              Политика конфиденциальности
+            <a href="/" src="privacyPolicy" className={s.textLink}>
+              {privacyPolicy}
             </a>
           </li>
         </ul>
@@ -56,7 +56,7 @@ const Footer = () => {
           <ul className={s.contactsList}>
             <li className={s.contactsItem}>
               <a href="tel:+380993589253" className={s.contactsLink}>
-                +380993589253
+                {phoneNumber}
               </a>
             </li>
             <li className={s.contactsItem}>
@@ -65,7 +65,7 @@ const Footer = () => {
                 aria-label="YanottiOnInstagram"
                 className={s.contactsLink}
               >
-                yanotti_massage
+                {instaContact}
               </a>
             </li>
             <li className={s.contactsItem}>
@@ -74,7 +74,7 @@ const Footer = () => {
                 aria-label="YanottiOnYoutube"
                 className={s.contactsLink}
               >
-                yanotti_massage
+                {youTubeContact}
               </a>
             </li>
           </ul>
@@ -84,6 +84,39 @@ const Footer = () => {
   );
 };
 
-Footer.propTypes = {};
+Footer.defaultProps = {
+  textLinksObj: {
+    textHelpfulness: "Преимущества",
+    textProgram: "Программа",
+    textReviews: "Отзывы",
+    textQa: "Вопросы",
+  },
+  middleTxtObj: {
+    contractOffer: "Договор оферты",
+    privacyPolicy: "Политика конфиденциальности",
+  },
+  contactsTxtObj: {
+    phoneNumber: "+380993589253",
+    instaContact: " yanotti_massage",
+    youTubeContact: " yanotti_massage",
+  },
+};
+
+Footer.propTypes = {
+  textLinksObj: PropTypes.shape({
+    textHelpfulness: PropTypes.string,
+    textProgram: PropTypes.string,
+    textReviews: PropTypes.string,
+    textQa: PropTypes.string,
+  }),
+  middleTxtObj: PropTypes.shape({
+    contractOffer: PropTypes.string,
+    privacyPolicy: PropTypes.string,
+  }),
+  contactsTxtObj: PropTypes.shape({
+    instaContact: PropTypes.string,
+    youTubeContact: PropTypes.string,
+  }),
+};
 
 export default Footer;

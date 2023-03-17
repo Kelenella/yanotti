@@ -11,6 +11,8 @@ const Video = ({ title }) => {
   );
 };
 
-Video.propTypes = { title: PropTypes.string.isRequired };
+Video.defaultProps = { title: "посмотрите короткий фрагмент одного из уроков" };
+
+Video.propTypes = { title: PropTypes.string };
 
 export default Video;
